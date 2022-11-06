@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@arterial/list": "^3.0.0",
+    "@material-ui/core": "^4.12.4",
+    "@material/list": "^14.0.0",
+    "@material/react-list": "^0.15.0",
+    "@mobiscroll/react-lite": "^4.10.9",
     "next": "13.0.1",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-swipeable-list": "^1.6.0"
   }
 }

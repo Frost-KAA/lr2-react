@@ -6,6 +6,21 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.mdc-deprecated-list-item__text{
+  display:flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mdc-deprecated-list-item__meta{
+  text-align: right;
+  padding-right: 20px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgba(255, 166, 0, 0.253);
+  align-items: center;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -15,12 +30,23 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
+}
+
+.cont{
+  margin: 10px;
+  padding: 10px
+}
+
+
+.appbar{
+  background-color: orange;
+  color: black;
 }
